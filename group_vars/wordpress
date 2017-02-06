@@ -1,0 +1,42 @@
+---
+site_name: friends_of_bedlam
+wp_root: /srv/friendsofbedlam.co.uk/wordpress
+wp_db_name: friendsof
+wp_db_user: friendsof
+wp_plugins:
+   - { name: all-in-one-wp-security-and-firewall, version: 4.2.5 }
+   - { name: are-you-robot-recaptcha, version: 2.2 }
+   - { name: autochimp, version: 2.15 }
+   - { name: ban-hammer, version: 2.6 }
+   - { name: bbpress, version: 2.5.12 }
+   - { name: bp-profile-search, version: 4.7 }
+   - { name: bp-registration-options, version: 4.3.1 }
+   - { name: buddypress, version: 2.7.4 }
+   - { name: bp-auto-group-join, version: 1.0.1 }
+   - { name: members-import, version: 1.4.1 }
+   - { name: conditional-widgets, version: 2.2 }
+   - { name: custom-category-templates, version: 0.2.1 }
+   - { name: debug-bar, version: 0.8.4 }
+   - { name: erident-custom-login-and-dashboard, version: 3.5.2 }
+   - { name: ewww-image-optimizer, version: 3.2.4 }
+   - { name: facebook-albums, version: 2.0.5.3a }
+   - { name: frontend-uploader, version: 1.1 }
+   
+
+
+# bp-custom 
+# buddypress-profile-view-from-admin
+# debug-queries
+
+# all-in-one-wp-security-and-firewall  buddypress-members-import           hide-user-profile-fields    ninja-forms                                      simple-tooltips              wp-crontrol                                               │
+# are-you-robot-recaptcha              buddypress-profile-view-from-admin  index.php                   official-statcounter-plugin-for-wordpress        social-metrics               wp-dbmanager                                              │
+# autochimp                            conditional-widgets                 jcwp-youtube-channel-embed  p3-profiler                                      syntaxhighlighter            wp-lightbox-2                                             │
+# ban-hammer                           custom-category-templates           jquery-collapse-o-matic     page-list                                        uk-cookie-consent            wp-retina-2x                                              │
+# bbpress                              debug-bar                           mailchimp-campaign-archive  plugin-organizer                                 user-role-editor             youtube-channel-gallery                                   │
+# bp-custom.php                        debug-queries                       mailchimp-for-wp            private-community-for-bp (12:09:2013 15:21).php  vulnerability-alerts         youtube-embed-plus                                        │
+# bp-profile-search                    erident-custom-login-and-dashboard  maxbuttons                  private-community-for-bp (26:10:2013 20:34).php  w3-total-cache                                                                         │
+# bp-registration-options              ewww-image-optimizer                mini-twitter-feed           private-community-for-bp-lite                    wordpress-file-monitor-plus                                                            │
+# buddypress                           facebook-albums                     nav-menu-roles              shadowbox-js                                     wordpress-seo                                                                          │
+# buddypress-auto-group-join           frontend-uploader                   nginx-helper                simple-share-buttons-adder                       wp-better-emails
+   
+

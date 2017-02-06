@@ -1,0 +1,8 @@
+---
+env: development
+host: wordpress
+wp_admin_email: admin@example.dev
+wp_admin_password: password
+wp_db_password: password
+wp_delete_content: true
+# wp_db_import: database.sql.gz

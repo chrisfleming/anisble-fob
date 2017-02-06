@@ -1,0 +1,5 @@
+*.sql*
+.vagrant
+production
+*.retry
+*.log
