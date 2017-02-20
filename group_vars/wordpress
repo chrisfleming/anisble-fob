@@ -21,22 +21,45 @@ wp_plugins:
    - { name: ewww-image-optimizer, version: 3.2.4 }
    - { name: facebook-albums, version: 2.0.5.3a }
    - { name: frontend-uploader, version: 1.1 }
-   
+   - { name: hide-user-profile-fields, version: 1.2 }
+   - { name: jcwp-youtube-channel-embed, version: 2.0.0 }
+   - { name: jquery-collapse-o-matic, version: 1.7.3 }
+   - { name: mailchimp-campaign-archive, version: 1.0.3 }
+   - { name: mailchimp-for-wp, version: 4.0.13 }
+   - { name: maxbuttons, version: 6.15 }
+   - { name: mini-twitter-feed, version: 2.0.1 }
+   - { name: nav-menu-roles, version: 1.8.6 }
+   - { name: nginx-helper, version: 1.9.9 }
+   - { name: ninja-forms, version: 3.0.27 }
+   - { name: official-statcounter-plugin-for-wordpress, version: 2.0.1 }
+   - { name: p3-profiler, version: 1.5.3.9 }
+   - { name: page-list, version: 5.1}
+   - { name: plugin-organizer, version: 8.1}
+   - { name: private-community-for-bp-lite, version: 8.1}
+   - { name: shadowbox-js, version: 3.0.3.10.2 }
+   - { name: simple-share-buttons-adder, version: 6.3.4 }
+   - { name: simple-tooltips, version: 2.1.3 }
+   - { name: social-metrics, version: 2.2 }
+   - { name: syntaxhighlighter, version: 3.2.1 }
+   - { name: uk-cookie-consent, version: 2.3.0  }
+   - { name: user-role-editor, version: 4.31.1  }
+   - { name: vulnerability-alerts, version: 1.3.1  }
+   - { name: w3-total-cache, version: 0.9.5.2  }
+   - { name: wordpress-seo, version: 4.3 }
+   - { name: wp-better-emails, version: 0.3 }
+   - { name: wp-dbmanager , version: 2.78.1 }
+   - { name: wp-lightbox-2, version: 3.0.6.2 }
+   - { name: wp-retina-2x, version: 4.7.7 }
+   - { name: youtube-channel-gallery, version: 2.4 }
+   - { name:  youtube-embed-plus, version: 11.5 }
 
-
+# Still to Add:
 # bp-custom 
 # buddypress-profile-view-from-admin
 # debug-queries
+# private-community-for-bp-lite
+# wordpress-file-monitor-plus
+# wp-control
 
-# all-in-one-wp-security-and-firewall  buddypress-members-import           hide-user-profile-fields    ninja-forms                                      simple-tooltips              wp-crontrol                                               │
-# are-you-robot-recaptcha              buddypress-profile-view-from-admin  index.php                   official-statcounter-plugin-for-wordpress        social-metrics               wp-dbmanager                                              │
-# autochimp                            conditional-widgets                 jcwp-youtube-channel-embed  p3-profiler                                      syntaxhighlighter            wp-lightbox-2                                             │
-# ban-hammer                           custom-category-templates           jquery-collapse-o-matic     page-list                                        uk-cookie-consent            wp-retina-2x                                              │
-# bbpress                              debug-bar                           mailchimp-campaign-archive  plugin-organizer                                 user-role-editor             youtube-channel-gallery                                   │
-# bp-custom.php                        debug-queries                       mailchimp-for-wp            private-community-for-bp (12:09:2013 15:21).php  vulnerability-alerts         youtube-embed-plus                                        │
-# bp-profile-search                    erident-custom-login-and-dashboard  maxbuttons                  private-community-for-bp (26:10:2013 20:34).php  w3-total-cache                                                                         │
-# bp-registration-options              ewww-image-optimizer                mini-twitter-feed           private-community-for-bp-lite                    wordpress-file-monitor-plus                                                            │
-# buddypress                           facebook-albums                     nav-menu-roles              shadowbox-js                                     wordpress-seo                                                                          │
-# buddypress-auto-group-join           frontend-uploader                   nginx-helper                simple-share-buttons-adder                       wp-better-emails
    
 
