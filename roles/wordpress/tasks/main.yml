@@ -19,7 +19,7 @@
   template: src=wp-config.php dest={{ wp_root }}
 
 - include: database.yml
-- include: plugins.yml
+  #- include: plugins.yml
 
 - name: Delete content
   command: wp site empty --yes --allow-root chdir={{ wp_root }}
@@ -33,3 +33,12 @@
 
 - name: Change upload permissions
   file: path={{ wp_root }}/wp-content/uploads mode=775 state=directory recurse=yes
+
+- name: Copy Template
+  copy:
+      src:  files/twentytwelvechild
+      dest: "{{ wp_root }}/wp-content/themes/"
+      owner: root
+      mode: 555
+  #with_fileglob:
+  #    - files/twentytwelvechild/*
