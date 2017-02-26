@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: private-community-for-bp-lite\n"
+"POT-Creation-Date: 2013-09-26 20:51-0500\n"
+"PO-Revision-Date: 2013-09-26 20:51-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: loader.php:26
+msgid ""
+"<strong>Private Community For BP Lite</strong></a> requires the BuddyPress "
+"plugin to work. Please <a href=\"http://buddypress.org/download\">install "
+"BuddyPress</a> first, or <a href=\"plugins.php\">deactivate Private "
+"Community For BP Lite</a>."
+msgstr ""
+
+#: private-community-for-bp-lite.php:119
+msgid "PrivateCommunityBP"
+msgstr ""
+
+#: private-community-for-bp-lite.php:183
+msgid "Private Community For BP Lite Settings"
+msgstr ""
+
+#: private-community-for-bp-lite.php:186
+msgid ""
+"Enter the slug of the posts/pages you would like to unblock in the options "
+"below.<br /> <b>Example:</b> enter \"activity\" without quotes to unblock "
+"the activity page.<br /> <b>You can also enter the slug of a category to "
+"unblock the entire category.</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:190
+msgid "Settings Updated."
+msgstr ""
+
+#: private-community-for-bp-lite.php:196
+msgid "<b>Unblocked Page One:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:201
+msgid "<b>Unblocked Page Two:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:206
+msgid "<b>Unblocked Page Three:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:211
+msgid "<b>Unblocked Page Four:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:216
+msgid "<b>Unblocked Page Five:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:221
+msgid "<b>Unblocked Page Six:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:226
+msgid "<b>Unblocked Page Seven:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:231
+msgid "<b>Unblocked Page Eight:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:236
+msgid "<b>Unblocked Page Nine:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:241
+msgid "<b>Unblocked Page Ten:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:247
+msgid "<b>Unblocked Page Eleven:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:252
+msgid "<b>Unblocked Page Twelve:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:257
+msgid "<b>Unblocked Page Thirteen:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:262
+msgid "<b>Unblocked Page Fourteen:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:267
+msgid "<b>Unblocked Page Fifteen:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:272
+msgid "<b>Unblocked Page Sixteen:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:277
+msgid "<b>Unblocked Page Seventeen:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:282
+msgid "<b>Unblocked Page Eighteen:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:287
+msgid "<b>Unblocked Page Nineteen:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:292
+msgid "<b>Unblocked Page Twenty:</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:297
+msgid ""
+"<b>Define Your Redirect Slug For Logged Out Visitors.</b><br /> Example:<br /"
+"> This can be <b>register, sign-up, or wp-login.php.</b>"
+msgstr ""
+
+#: private-community-for-bp-lite.php:305
+msgid "Save Settings"
+msgstr ""

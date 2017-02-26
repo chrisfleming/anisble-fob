@@ -42,3 +42,19 @@
       mode: 555
   #with_fileglob:
   #    - files/twentytwelvechild/*
+  #
+- name: Copy Custom Plugin
+  copy:
+      src: file/private-community-for-bp-lite
+      dest: "{{ wp_root }}/wp-content/plugins/"
+      owner: www-data:www-data
+      mode: 555
+
+- name: Copy bp-custom.php
+  copy:
+      src: file/bp-custom.php
+      dest: "{{ wp_root }}/wp-content/plugins/"
+      owner: www-data:www-data
+      mode: 555
+
+

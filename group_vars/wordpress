@@ -12,14 +12,17 @@ wp_plugins:
    - { name: bp-profile-search, version: 4.7 }
    - { name: bp-registration-options, version: 4.3.1 }
    - { name: buddypress, version: 2.7.4 }
+   - { name: buddypress-profile-view-from-admin, version: 3.6.1 }
    - { name: bp-auto-group-join, version: 1.0.1 }
    - { name: members-import, version: 1.4.1 }
    - { name: conditional-widgets, version: 2.2 }
    - { name: custom-category-templates, version: 0.2.1 }
    - { name: debug-bar, version: 0.8.4 }
+   - { name: debug-queries, version: 1.0.2 }
    - { name: erident-custom-login-and-dashboard, version: 3.5.2 }
    - { name: ewww-image-optimizer, version: 3.2.4 }
    - { name: facebook-albums, version: 2.0.5.3a }
+   - { name: file-changes-monitor, version: 1.0.5 }
    - { name: frontend-uploader, version: 1.1 }
    - { name: hide-user-profile-fields, version: 1.2 }
    - { name: jcwp-youtube-channel-embed, version: 2.0.0 }
@@ -46,6 +49,7 @@ wp_plugins:
    - { name: w3-total-cache, version: 0.9.5.2  }
    - { name: wordpress-seo, version: 4.3 }
    - { name: wp-better-emails, version: 0.3 }
+   - { name: wp-crontrol, version: 1.4 }
    - { name: wp-dbmanager , version: 2.78.1 }
    - { name: wp-lightbox-2, version: 3.0.6.2 }
    - { name: wp-retina-2x, version: 4.7.7 }
