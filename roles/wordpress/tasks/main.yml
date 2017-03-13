@@ -1,6 +1,6 @@
 ---
 - name: Creates directory
-  file: path={{ wp_root }} state=directory 
+  file: path="/srv/friendsofbedlam.co.uk/" state=directory 
 
 - name: Install WP-CLI
   get_url: url={{ wp_cli_url }} dest={{ wp_cli_bin }} mode=0755
@@ -45,16 +45,18 @@
   #
 - name: Copy Custom Plugin
   copy:
-      src: file/private-community-for-bp-lite
+      src: files/private-community-for-bp-lite
       dest: "{{ wp_root }}/wp-content/plugins/"
-      owner: www-data:www-data
+      owner: www-data
+      group: www-data
       mode: 555
 
 - name: Copy bp-custom.php
   copy:
-      src: file/bp-custom.php
+      src: files/bp-custom.php
       dest: "{{ wp_root }}/wp-content/plugins/"
-      owner: www-data:www-data
+      owner: www-data
+      group: www-data
       mode: 555
 
 

@@ -1,5 +1,6 @@
 ---
 site_name: friends_of_bedlam
+host: friendsofbedlam.co.uk
 wp_root: /srv/friendsofbedlam.co.uk/wordpress
 wp_db_name: friendsof
 wp_db_user: friendsof
