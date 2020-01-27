@@ -1,4 +1,4 @@
-<?php
+?php
 /*function twentytwelve_customize_preview_js() {
 	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20120827', true );
 	}*/
@@ -69,4 +69,19 @@ return $parts[0];
 }
 add_filter( 'script_loader_src', '_remove_script_version', 15, 1 );
 add_filter( 'style_loader_src', '_remove_script_version', 15, 1 );
+
+
+function wpb_sender_email( $original_email_address ) {
+    return 'website@friendsofbedlam.co.uk';
+}
+
+// Function to change sender name
+function wpb_sender_name( $original_email_from ) {
+    return 'Bedlamites';
+}
+
+// Hooking up our functions to WordPress filters
+add_filter( 'wp_mail_from', 'wpb_sender_email' );
+add_filter( 'wp_mail_from_name', 'wpb_sender_name' );
+
 ?>

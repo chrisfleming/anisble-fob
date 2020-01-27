@@ -5,17 +5,17 @@ wp_root: /srv/friendsofbedlam.co.uk/wordpress
 wp_db_name: friendsof
 wp_db_user: friendsof
 wp_plugins:
-   - { name: all-in-one-wp-security-and-firewall, version: 4.2.5 }
+    #   - { name: all-in-one-wp-security-and-firewall, version: 4.2.5 }
    - { name: are-you-robot-recaptcha, version: 2.2 }
-   - { name: autochimp, version: 2.15 }
+     #   - { name: autochimp, version: 2.15 }
    - { name: ban-hammer, version: 2.6 }
    - { name: bbpress, version: 2.5.12 }
    - { name: bp-profile-search, version: 4.7 }
    - { name: bp-registration-options, version: 4.3.1 }
-   - { name: buddypress, version: 2.7.4 }
-   - { name: buddypress-profile-view-from-admin, version: 3.6.1 }
+   - { name: buddypress, version: 4.2.0 }
+     # - { name: buddypress-profile-view-from-admin, version: 3.6.1 }
    - { name: bp-auto-group-join, version: 1.0.1 }
-   - { name: members-import, version: 1.4.1 }
+     # - { name: members-import, version: 1.4.1 }
    - { name: conditional-widgets, version: 2.2 }
    - { name: custom-category-templates, version: 0.2.1 }
    - { name: debug-bar, version: 0.8.4 }
@@ -40,7 +40,7 @@ wp_plugins:
    - { name: page-list, version: 5.1}
    - { name: plugin-organizer, version: 8.1}
    - { name: shadowbox-js, version: 3.0.3.10.2 }
-   - { name: simple-share-buttons-adder, version: 6.3.4 }
+     #  - { name: simple-share-buttons-adder, version: 6.3.4 }
    - { name: simple-tooltips, version: 2.1.3 }
    - { name: social-metrics, version: 2.2 }
    - { name: syntaxhighlighter, version: 3.2.1 }

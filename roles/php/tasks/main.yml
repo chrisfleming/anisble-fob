@@ -2,11 +2,11 @@
 - name: Install PHP
   apt: name={{ item }} state=present
   with_items:
-    - php7.0-cli
-    - php7.0-curl
-    - php7.0-fpm
-    - php7.0-gd
-    - php7.0-mysql
+    - php-cli
+    - php-curl
+    - php-fpm
+    - php-gd
+    - php-mysql
 
 - name: Start PHP5-FPM service
-  service: name=php7.0-fpm.service state=started enabled=true
+  service: name=php7.2-fpm.service state=started enabled=true

@@ -1,7 +1,11 @@
 ---
 - name: Install MySQL, WordPress, Nginx and PHP-FPM
-  hosts: wordpress
-  sudo: yes
+  hosts: fob
+  become: yes
+
+  vars_files:
+    - group_vars/wordpress/vars
+    - group_vars/wordpress/vault
 
   roles:
     - { role: common, tags: common }

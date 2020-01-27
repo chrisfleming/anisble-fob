@@ -19,7 +19,12 @@
   template: src=wp-config.php dest={{ wp_root }}
 
 - include: database.yml
-  #- include: plugins.yml
+- include: plugins.yml
+
+- name: Install WordPress These
+  command: wp theme install twentytwelve --activate --force --allow-root chdir={{ wp_root }}
+  tags: theme
+
 
 - name: Delete content
   command: wp site empty --yes --allow-root chdir={{ wp_root }}
@@ -40,9 +45,9 @@
       dest: "{{ wp_root }}/wp-content/themes/"
       owner: root
       mode: 555
-  #with_fileglob:
-  #    - files/twentytwelvechild/*
-  #
+  with_fileglob:
+      - files/twentytwelvechild/*
+
 - name: Copy Custom Plugin
   copy:
       src: files/private-community-for-bp-lite
